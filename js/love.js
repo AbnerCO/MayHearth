@@ -107,6 +107,9 @@ function Rise() {
 
             console.log("升空完毕");
 
+            document.getElementById("love-text").style.display = "block";
+
+
         }
 
         love.style.top = (love_top - distance) + "px";
