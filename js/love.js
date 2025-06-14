@@ -104,10 +104,9 @@ function Rise() {
         // console.log(distance);
         if (distance >= target) {
             clearInterval(timer2);
-
+                
+                document.getElementById("love-text").style.display = "block";
             console.log("升空完毕");
-
-            document.getElementById("love-text").style.display = "block";
 
 
         }
