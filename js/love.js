@@ -109,10 +109,8 @@ function Rise() {
             console.log("升空完毕");
             const loveText = document.getElementById("love-text");
                 loveText.style.display = "block";
-                loveText.style.opacity = "0";
                 setTimeout(() => {
-                    loveText.style.transition = "opacity 2s ease";
-                    loveText.style.opacity = "1";
+                loveText.style.opacity = "1";
                 }, 10);
 
         }
